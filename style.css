@@ -1,0 +1,88 @@
+ * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  Font-family: 'Inconsolata', monospace;
+}
+
+body {
+ Font-family: 'Inconsolata', monospace;
+ background-color: #ffffff;
+}
+
+
+h2 {
+  background-color: #000000;
+  color: #fff;
+  display: inline;
+  
+}
+.menu-container {
+  color: #ffff;
+  background-color: #000000;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+} 
+
+.divmaior {
+  margin: 50px;
+}
+
+.menu {
+  width: 900px;
+  display: flex;
+  justify-content: space-around;
+  font-family: 'Inconsolata', monospace;
+}
+
+.menu-eat{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  color: #fef6f6;
+  background-color: #000000;
+  width: 50%;
+  height: 40%;
+}
+
+.container {
+  position: relative;
+}
+
+
+
+#image {
+  display: flex;
+  align-items: center; 
+  align-self: flex-start;
+  flex: 1;
+}
+
+#texto {
+  position: absolute;
+  display: felx;
+  font-size: 90px;
+  font-family: 'Inconsolata', monospace;
+  left: 44%;
+  top: 20%;
+  color: #ffff
+}
+
+.eat{
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+  width: 50%;
+  align-items: center;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-item {
+  background-color: #000000;
+  height: 100px;
+  flex: 1;
+}
